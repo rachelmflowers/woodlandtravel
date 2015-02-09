@@ -1,0 +1,154 @@
+BPS DB BACKUP LOG
+==================
+==================
+
+
+[Create Backup Job Settings Logged: February 9, 2015 2:42 am]
+Description/Backup Job Name: 
+DB Backup Folder Location: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG
+DB Backup File Download Link/URL: http://woodlandtravelcenter.net/wp-content/bps-backup/backups_EbP9daIThtFG3CG/
+Backup Job Type: Scheduled
+Frequency: Daily
+Time When Scheduled Backup is Run: 2AM
+Send Scheduled Backup Zip Files Via Email: No
+Automatically Delete Old Backup Files Older Than: 180 day(s) old
+Scheduled Backups (override): On
+Table Name: wp_bpspro_db_backup
+Table Name: wp_bpspro_login_security
+Table Name: wp_bpspro_seclog_ignore
+Table Name: wp_commentmeta
+Table Name: wp_comments
+Table Name: wp_gallery_albums
+Table Name: wp_gallery_pics
+Table Name: wp_gallery_settings
+Table Name: wp_links
+Table Name: wp_ngg_album
+Table Name: wp_ngg_gallery
+Table Name: wp_ngg_pictures
+Table Name: wp_options
+Table Name: wp_postmeta
+Table Name: wp_posts
+Table Name: wp_redirection_404
+Table Name: wp_redirection_groups
+Table Name: wp_redirection_items
+Table Name: wp_redirection_logs
+Table Name: wp_redirection_modules
+Table Name: wp_term_relationships
+Table Name: wp_term_taxonomy
+Table Name: wp_terms
+Table Name: wp_usermeta
+Table Name: wp_users
+
+[Create Backup Job Settings Logged: February 9, 2015 2:43 am]
+Description/Backup Job Name: Daily
+DB Backup Folder Location: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG
+DB Backup File Download Link/URL: http://woodlandtravelcenter.net/wp-content/bps-backup/backups_EbP9daIThtFG3CG/
+Backup Job Type: Scheduled
+Frequency: Daily
+Time When Scheduled Backup is Run: 2AM
+Send Scheduled Backup Zip Files Via Email: No
+Automatically Delete Old Backup Files Older Than: 180 day(s) old
+Scheduled Backups (override): On
+Table Name: wp_bpspro_db_backup
+Table Name: wp_bpspro_login_security
+Table Name: wp_bpspro_seclog_ignore
+Table Name: wp_commentmeta
+Table Name: wp_comments
+Table Name: wp_gallery_albums
+Table Name: wp_gallery_pics
+Table Name: wp_gallery_settings
+Table Name: wp_links
+Table Name: wp_ngg_album
+Table Name: wp_ngg_gallery
+Table Name: wp_ngg_pictures
+Table Name: wp_options
+Table Name: wp_postmeta
+Table Name: wp_posts
+Table Name: wp_redirection_404
+Table Name: wp_redirection_groups
+Table Name: wp_redirection_items
+Table Name: wp_redirection_logs
+Table Name: wp_redirection_modules
+Table Name: wp_term_relationships
+Table Name: wp_term_taxonomy
+Table Name: wp_terms
+Table Name: wp_usermeta
+Table Name: wp_users
+
+[Create Backup Job Settings Logged: February 9, 2015 2:43 am]
+Description/Backup Job Name: manual
+DB Backup Folder Location: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG
+DB Backup File Download Link/URL: http://woodlandtravelcenter.net/wp-content/bps-backup/backups_EbP9daIThtFG3CG/
+Backup Job Type: Manual
+Frequency: NA
+Time When Scheduled Backup is Run: Manual
+Send Scheduled Backup Zip Files Via Email: Manual
+Automatically Delete Old Backup Files Older Than: 180 day(s) old
+Scheduled Backups (override): On
+Table Name: wp_bpspro_db_backup
+Table Name: wp_bpspro_login_security
+Table Name: wp_bpspro_seclog_ignore
+Table Name: wp_commentmeta
+Table Name: wp_comments
+Table Name: wp_gallery_albums
+Table Name: wp_gallery_pics
+Table Name: wp_gallery_settings
+Table Name: wp_links
+Table Name: wp_ngg_album
+Table Name: wp_ngg_gallery
+Table Name: wp_ngg_pictures
+Table Name: wp_options
+Table Name: wp_postmeta
+Table Name: wp_posts
+Table Name: wp_redirection_404
+Table Name: wp_redirection_groups
+Table Name: wp_redirection_items
+Table Name: wp_redirection_logs
+Table Name: wp_redirection_modules
+Table Name: wp_term_relationships
+Table Name: wp_term_taxonomy
+Table Name: wp_terms
+Table Name: wp_usermeta
+Table Name: wp_users
+
+[Create Backup Job Settings Logged: February 9, 2015 2:45 am]
+Description/Backup Job Name: manual
+DB Backup Folder Location: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG
+DB Backup File Download Link/URL: http://woodlandtravelcenter.net/wp-content/bps-backup/backups_EbP9daIThtFG3CG/
+Backup Job Type: Manual
+Frequency: NA
+Time When Scheduled Backup is Run: Manual
+Send Scheduled Backup Zip Files Via Email: Manual
+Automatically Delete Old Backup Files Older Than: 180 day(s) old
+Scheduled Backups (override): On
+Table Name: wp_bpspro_db_backup
+Table Name: wp_bpspro_login_security
+Table Name: wp_bpspro_seclog_ignore
+Table Name: wp_commentmeta
+Table Name: wp_comments
+Table Name: wp_gallery_albums
+Table Name: wp_gallery_pics
+Table Name: wp_gallery_settings
+Table Name: wp_links
+Table Name: wp_ngg_album
+Table Name: wp_ngg_gallery
+Table Name: wp_ngg_pictures
+Table Name: wp_options
+Table Name: wp_postmeta
+Table Name: wp_posts
+Table Name: wp_redirection_404
+Table Name: wp_redirection_groups
+Table Name: wp_redirection_items
+Table Name: wp_redirection_logs
+Table Name: wp_redirection_modules
+Table Name: wp_term_relationships
+Table Name: wp_term_taxonomy
+Table Name: wp_terms
+Table Name: wp_usermeta
+Table Name: wp_users
+
+[Backup Job Logged: February 9, 2015 2:45 am]
+Backup Job Type: Manual
+Email DB Backup: Manual
+Backup Job Completion Time: 5.794203 Seconds
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-09-time-2-45-25-am.zip

@@ -1,0 +1,78 @@
+
+div#slideshow_nav_3{
+    position:absolute;
+    z-index: 10;
+    bottom:0;
+    right:0;
+    padding:5px;
+}
+.slide_nav_3 {
+    clear:both;
+    margin:5px 0;
+}
+.slide_nav_3 a {
+    background:none repeat scroll 0 0 #EEEEEE;
+    border:1px solid #CCCCCC;
+    color:#333333!important;
+    font-size:0px;
+    font-weight:bold;
+    margin:2px;
+    padding:10px 10px;
+    line-height:20px;
+    text-decoration:none;
+}
+.slide_nav_3 a.activeSlide {
+    background:none repeat scroll 0 0 #FFFFFF;
+}
+.slide_nav_3 a:focus {
+    outline:medium none;
+}
+
+div#slideshow_3 {
+    width:127px; height: 120px; /*padding: 15px 0 0 12px;*/
+    position: relative; z-index: 5;
+    background:none;
+}
+div#slideshow_3 img{
+    border:none!important;
+    padding:0;
+    margin:0;
+}
+div#slideshow_3 ul#prevnextnav_3 {
+    padding: 0;
+    display: none;
+    list-style: none;
+    position: relative; top: 55px; z-index: 15;
+    outline:medium none;
+    margin:0;
+}
+div#slideshow_3 ul#prevnextnav_3 li#prev_3 {
+    position:absolute; left:7px; margin: 0;padding: 0;
+}
+div#slideshow_3 ul#prevnextnav_3 li#next_3 {
+    position:absolute; left:101px; margin: 0 20px 0 0;padding: 0;
+}
+div#slideshow_3 ul#prevnextnav_3 li a {
+    display: block; width: 20px; height: 20px; text-indent: -9999px;
+}
+div#slideshow_3 ul#prevnextnav_3 li#prev_3 a {
+
+    background: url(http://www.woodlandtravelcenter.net/modules/Showtime/templates/jquery/images/prev_20.png);
+
+}
+div#slideshow_3 ul#prevnextnav_3 li#next_3 a {
+
+    background: url(http://www.woodlandtravelcenter.net/modules/Showtime/templates/jquery/images/next_20.png);
+
+}
+
+div#slideshow_3 ul#slides_3{
+    list-style: none;padding: 0; margin:0; z-index:5;
+    width:127px; height: 120px;
+}
+div#slideshow_3 ul#slides_3 li {
+    width:127px; height: 120px;
+    margin: 0 0 20px 0;
+}
+
+a {outline: none; }

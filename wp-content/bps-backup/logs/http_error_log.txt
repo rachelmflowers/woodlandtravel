@@ -1,0 +1,19 @@
+BPS SECURITY LOG
+=================
+=================
+
+[403 GET / HEAD Request: February 9, 2015 2:26 am]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 162.216.19.183
+Host Name: sitecheck3.sucuri.net
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /readme.html
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6
