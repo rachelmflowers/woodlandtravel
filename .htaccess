@@ -1,4 +1,4 @@
-#   BULLETPROOF .51.4 >>>>>>> SECURE .HTACCESS     
+#   BULLETPROOF .51.6 >>>>>>> SECURE .HTACCESS     
 
 # PHP/PHP.INI HANDLER/CACHE CODE
 # Use BPS Custom Code to add php/php.ini Handler and Cache htaccess code and to save it permanently.
@@ -32,7 +32,7 @@ DirectoryIndex index.php index.html /index.php
 # See this link: http://forum.ait-pro.com/forums/topic/protect-login-page-from-brute-force-login-attacks/
 # for more information.
 
-# BPS PRO ERROR LOGGING AND TRACKING
+# BPS ERROR LOGGING AND TRACKING
 # Use BPS Custom Code to modify/edit/change this code and to save it permanently.
 # BPS has premade 403 Forbidden, 400 Bad Request and 404 Not Found files that are used 
 # to track and log 403, 400 and 404 errors that occur on your website. When a hacker attempts to
@@ -87,6 +87,11 @@ RewriteRule ^(.*)$ - [F]
 # If you delete a skip rule, change the other skip rule numbers accordingly.
 # Examples: If RewriteRule [S=5] is deleted than change [S=6] to [S=5], [S=7] to [S=6], etc.
 # If you add a new skip rule above skip rule 12 it will be skip rule 13: [S=13]
+
+# CUSTOM CODE PLUGIN/THEME SKIP/BYPASS RULES
+# WTC Theme font skip/bypass rule
+RewriteCond %{REQUEST_URI} ^/wp-content/themes/WTC/fonts/.*\.(eot|woff|ttf|svg).* [NC]
+RewriteRule . - [S=13]
 
 # Adminer MySQL management tool data populate
 RewriteCond %{REQUEST_URI} ^/wp-content/plugins/adminer/ [NC]

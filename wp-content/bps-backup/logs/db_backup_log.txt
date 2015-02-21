@@ -152,3 +152,116 @@ Backup Job Type: Manual
 Email DB Backup: Manual
 Backup Job Completion Time: 5.794203 Seconds
 Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-09-time-2-45-25-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 9, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 9, 2015 6:00 am]
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 1.099785 Seconds
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-09-time-6-00-16-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 10, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Old Zip Backup File(s) Automatic Deletion: February 11, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 11, 2015 6:00 am]
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 2.310190 Seconds
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-11-time-6-00-10-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 12, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 12, 2015 6:00 am]
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 3.697894 Seconds
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-12-time-6-00-12-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 13, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Old Zip Backup File(s) Automatic Deletion: February 14, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 14, 2015 6:00 am]
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 4.318481 Seconds
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-14-time-6-00-10-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 15, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Old Zip Backup File(s) Automatic Deletion: February 16, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 16, 2015 6:00 am]
+Backup Job Name: Daily
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 3.2 Seconds
+Peak Memory Usage: 30.65MB|31,387KB
+Initial Memory in Use: 23.62MB|24,188KB
+Total Memory Used: 7.03MB|7,199KB
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-16-time-6-00-10-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 17, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 17, 2015 6:00 am]
+Backup Job Name: Daily
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 7.12 Seconds
+Peak Memory Usage: 30.67MB|31,405KB
+Initial Memory in Use: 23.64MB|24,206KB
+Total Memory Used: 7.03MB|7,198KB
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-17-time-6-00-18-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 18, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Old Zip Backup File(s) Automatic Deletion: February 19, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 19, 2015 6:00 am]
+Backup Job Name: Daily
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 3.33 Seconds
+Peak Memory Usage: 30.67MB|31,405KB
+Initial Memory in Use: 23.64MB|24,207KB
+Total Memory Used: 7.03MB|7,198KB
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-19-time-6-00-08-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 20, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 20, 2015 6:00 am]
+Backup Job Name: Daily
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 4.04 Seconds
+Peak Memory Usage: 30.67MB|31,408KB
+Initial Memory in Use: 23.64MB|24,209KB
+Total Memory Used: 7.03MB|7,199KB
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-20-time-6-00-12-am.zip
+
+[Old Zip Backup File(s) Automatic Deletion: February 21, 2015 6:00 am]
+No Zip Backup Files to Delete
+
+[Backup Job Logged: February 21, 2015 6:00 am]
+Backup Job Name: Daily
+Backup Job Type: Scheduled
+Email DB Backup: No
+Backup Job Completion Time: 42.03 Seconds
+Peak Memory Usage: 30.67MB|31,408KB
+Initial Memory in Use: 23.64MB|24,209KB
+Total Memory Used: 7.03MB|7,199KB
+Zip Backup File Name: /home/woodla16/public_html/wp-content/bps-backup/backups_EbP9daIThtFG3CG/2015-02-21-time-6-00-25-am.zip

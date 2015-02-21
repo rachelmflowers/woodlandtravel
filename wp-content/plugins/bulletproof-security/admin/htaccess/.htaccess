@@ -1,3 +1,2 @@
-order deny,allow
-deny from all
-allow from 107.4.33.102
+Order Deny,Allow
+Deny from all
