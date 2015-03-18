@@ -1,0 +1,54 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+
+#logo, #airstream-logo {
+    flex-basis: auto;
+    text-align: left;
+
+    img {
+        max-width:80%;
+    }
+}
+
+#searchform {
+    min-width: none;
+}
+
+#navs-search {
+    flex-grow: 2;
+    flex-basis: auto;
+    text-align: right;
+    max-width: 37%;
+}
+
+
+#primary-nav {
+    text-align: right;
+}
+
+#hero {
+
+    h1 {
+        padding-top: 100px;
+    }
+}
+
+#inner-content {
+
+    .page & {
+        margin-top: 115px;
+    }
+
+    .home & {
+        margin-top: 0;
+    }
+}
