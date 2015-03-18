@@ -1,26 +1,27 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Woodland Travel
+Author: Rachel Flowers | Pixel Play Creative
 
 Stylesheet: 481px and Up Stylesheet
 
-This stylesheet is loaded for larger devices. It's set to
-481px because at 480px it would load on a landscaped iPhone.
-This isn't ideal because then you would be loading all those
-extra styles on that same mobile connection.
-
-A word of warning. This size COULD be a larger mobile device,
-so you still want to keep it pretty light and simply expand
-upon your base.scss styles.
-
 ******************************************************************/
 
-/*
-IMPORTANT NOTE ABOUT SASS 3.3 & UP
-You can't use @extend within media queries
-anymore, so just be aware that if you drop
-them in here, they won't work.
-*/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+html {
+    font-size: 90%;
+}
+
+
+
+
+/*********************
+HEADER STYLES
+*********************/
 
 #airstream-logo {
     background: none;
@@ -37,6 +38,7 @@ them in here, they won't work.
 
 #logo {
     flex-basis: 48%;
+    max-width: none;
 }
 
 .menu-trigger {
@@ -46,6 +48,7 @@ them in here, they won't work.
 #searchform {
     flex-basis: 50%;
 }
+
 
 
 
@@ -77,17 +80,41 @@ POSTS & CONTENT STYLES
 
 } /* end .entry-content */
 
+
+#hero {
+
+    img {
+        left: -50%;
+    }
+
+}
+
+.full-width-inner-row {
+
+    .home & {
+
+        .vc_col-sm-3 {
+            width: 50%;
+            float: left;
+        }
+    }
+}
+
+
+
+
 /*********************
 FOOTER STYLES
 *********************/
 
-/*
-check your menus here. do they look good?
-do they need tweaking?
-*/
-.footer-links {
-    ul {
-        li {}
+#footer-nav {
+    flex: 1 0 100%;
+
+    > ul {
+
+        > li {
+            max-width: 31%;
+        }
     }
-} /* end .footer-links */
+}
 

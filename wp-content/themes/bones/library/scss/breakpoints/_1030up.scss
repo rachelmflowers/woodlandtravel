@@ -1,14 +1,26 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Woodland Travel Center
+Author: Rachel Flowers | Pixel Play Creative
 
 Stylesheet: Desktop Stylsheet
 
-This is the desktop size. It's larger than an iPad so it will only
-be seen on the Desktop.
-
 ******************************************************************/
 
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+html {
+    font-size: 100%;
+}
+
+
+
+/*********************
+HEADER STYLES
+*********************/
 
 #logo, #airstream-logo {
     flex-basis: auto;
@@ -20,7 +32,7 @@ be seen on the Desktop.
 }
 
 #searchform {
-    min-width: none;
+    margin-right: 0;
 }
 
 #navs-search {
@@ -51,4 +63,38 @@ be seen on the Desktop.
     .home & {
         margin-top: 0;
     }
+}
+
+.services-row {
+
+    .wpb_column {
+        flex-basis: 24%;
+    }
+}
+
+.full-width-inner-row {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+
+    .home & {
+
+        .vc_col-sm-6 {
+            width: 50%;
+        }
+
+        .vc_col-sm-3 {
+            width: 25%;
+        }
+    }
+}
+
+
+
+/*********************
+FOOTER STYLES
+*********************/
+
+#footer-nav, #social {
+    flex-basis: auto;
 }

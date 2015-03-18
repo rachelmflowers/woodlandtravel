@@ -136,27 +136,21 @@ whatever you use in here.
 
 ******************************************************************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Woodland Travel
+Author: Rachel Flowers | Pixel Play Creative
 
 Stylesheet: 481px and Up Stylesheet
 
-This stylesheet is loaded for larger devices. It's set to
-481px because at 480px it would load on a landscaped iPhone.
-This isn't ideal because then you would be loading all those
-extra styles on that same mobile connection.
-
-A word of warning. This size COULD be a larger mobile device,
-so you still want to keep it pretty light and simply expand
-upon your base.scss styles.
-
 ******************************************************************/
-/*
-IMPORTANT NOTE ABOUT SASS 3.3 & UP
-You can't use @extend within media queries
-anymore, so just be aware that if you drop
-them in here, they won't work.
-*/
+/*********************
+GENERAL STYLES
+*********************/
+html {
+  font-size: 90%; }
+
+/*********************
+HEADER STYLES
+*********************/
 #airstream-logo {
   background: none;
   width: auto;
@@ -168,7 +162,8 @@ them in here, they won't work.
     height: auto; }
 
 #logo {
-  flex-basis: 48%; }
+  flex-basis: 48%;
+  max-width: none; }
 
 .menu-trigger {
   display: none; }
@@ -197,30 +192,34 @@ POSTS & CONTENT STYLES
     clear: both; }
 
 /* end .entry-content */
+#hero img {
+  left: -50%; }
+
+.home .full-width-inner-row .vc_col-sm-3 {
+  width: 50%;
+  float: left; }
+
 /*********************
 FOOTER STYLES
 *********************/
-/*
-check your menus here. do they look good?
-do they need tweaking?
-*/
-/* end .footer-links */
+#footer-nav {
+  flex: 1 0 100%; }
+  #footer-nav > ul > li {
+    max-width: 31%; }
+
 /******************************************************************
-Site Name:
-Author:
+Site Name: Woodland Travel Center
+Author: Rachel Flowers | Pixel Play Creative
 
 Stylesheet: Tablet & Small Desktop Stylesheet
-
-Here's where you can start getting into the good stuff.
-This size will work on iPads, other tablets, and desktops.
-So you can start working with more styles, background images,
-and other resources. You'll also notice the grid starts to
-come into play. Have fun!
 
 ******************************************************************/
 /*********************
 GENERAL STYLES
 *********************/
+html {
+  font-size: 95%; }
+
 /*********************
 HEADER STYLES
 *********************/
@@ -231,8 +230,11 @@ HEADER STYLES
   flex: none; }
 
 #searchform {
-  margin-left: 15px;
-  min-width: 300px; }
+  margin-left: 10px;
+  margin-right: 20px; }
+
+#primary-nav {
+  flex-basis: auto; }
 
 /*********************
 NAVIGATION STYLES
@@ -251,6 +253,12 @@ NAVIGATION STYLES
     width: 120%; }
   #primary-nav .nav > li:hover > ul {
     left: auto; }
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+#hero h1 {
+  padding-top: 120px; }
 
 /*********************
 SIDEBARS & ASIDES
@@ -283,6 +291,17 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
+.home .full-width-inner-row .vc_col-sm-6 {
+  width: 100%; }
+.home .full-width-inner-row .vc_col-sm-3 {
+  width: 50%; }
+
+#hero h1 {
+  font-size: 2.75rem;
+  padding-top: 120px; }
+#hero img {
+  left: auto; }
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -291,31 +310,38 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-#footer-nav {
-  flex: 1 0 auto; }
-  #footer-nav > ul {
-    display: block;
-    margin: 0;
-    white-space: nowrap; }
-    #footer-nav > ul > li {
-      width: 125px;
-      display: inline-block;
-      vertical-align: top;
-      white-space: normal; }
+#footer-nav > ul {
+  display: block;
+  margin: 0;
+  white-space: nowrap; }
+  #footer-nav > ul > li {
+    width: 125px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal; }
 
-#contact-info, #social {
+#contact-info {
   flex-basis: auto; }
 
+#social {
+  flex-basis: 75%; }
+
 /******************************************************************
-Site Name:
-Author:
+Site Name: Woodland Travel Center
+Author: Rachel Flowers | Pixel Play Creative
 
 Stylesheet: Desktop Stylsheet
 
-This is the desktop size. It's larger than an iPad so it will only
-be seen on the Desktop.
-
 ******************************************************************/
+/*********************
+GENERAL STYLES
+*********************/
+html {
+  font-size: 100%; }
+
+/*********************
+HEADER STYLES
+*********************/
 #logo, #airstream-logo {
   flex-basis: auto;
   text-align: left; }
@@ -323,7 +349,7 @@ be seen on the Desktop.
     max-width: 80%; }
 
 #searchform {
-  min-width: none; }
+  margin-right: 0; }
 
 #navs-search {
   flex-grow: 2;
@@ -341,6 +367,24 @@ be seen on the Desktop.
   margin-top: 115px; }
 .home #inner-content {
   margin-top: 0; }
+
+.services-row .wpb_column {
+  flex-basis: 24%; }
+
+.full-width-inner-row {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%; }
+  .home .full-width-inner-row .vc_col-sm-6 {
+    width: 50%; }
+  .home .full-width-inner-row .vc_col-sm-3 {
+    width: 25%; }
+
+/*********************
+FOOTER STYLES
+*********************/
+#footer-nav, #social {
+  flex-basis: auto; }
 
 /*
 you can call the larger styles if you want, but there's really no need

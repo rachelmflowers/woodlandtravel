@@ -1232,15 +1232,10 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Woodland Travel
+Author: Rachel Flowers | Pixel Play Creative
 
 Stylesheet: Base Mobile Stylesheet
-
-Be light and don't over style since everything here will be
-loaded by mobile devices. You want to keep it as minimal as
-possible. This is called at the top of the main stylsheet
-and will be used across all viewports.
 
 ******************************************************************/
 /*********************
@@ -1248,13 +1243,16 @@ GENERAL STYLES
 *********************/
 body {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
   color: #636363;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+html {
+  font-size: 85%; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1395,7 +1393,8 @@ HEADER STYLES
 
 #logo {
   text-align: right;
-  flex: 3 0 auto; }
+  flex: 3 0 auto;
+  max-width: 80%; }
   #logo img {
     max-width: 97%;
     height: auto; }
@@ -1423,12 +1422,13 @@ HEADER STYLES
   #searchform input {
     display: inline-block;
     flex: 1;
-    margin: 0; }
+    margin: 0;
+    border-color: #a6a5a8; }
   #searchform button {
     font-size: 1.05rem;
-    padding: 5px 0;
+    padding: 6.5px 0;
     text-align: center;
-    border: 1px solid #d6d6d6;
+    border: 1px solid #a6a5a8;
     vertical-align: top;
     width: 20%;
     margin-left: -1px; }
@@ -1544,15 +1544,16 @@ POSTS & CONTENT STYLES
     position: absolute;
     top: 0;
     bottom: 0;
+    left: -90%;
     z-index: -1000; }
   #hero h1 {
-    padding-top: 220px;
+    padding-top: 140px;
     font-weight: 600;
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     font-size: 3.25rem; }
     #hero h1 small {
-      font-size: 3.25rem;
+      font-size: inherit;
       color: #00b05a;
       display: block; }
 
@@ -1687,31 +1688,44 @@ POSTS & CONTENT STYLES
 .tags {
   margin: 0; }
 
-.home .services-row {
+.services-row {
   display: flex;
   flex-flow: row wrap; }
-  .home .services-row .wpb_column {
+  .services-row .wpb_column {
+    flex: 1 0 49%;
+    min-width: 200px;
     text-align: center;
-    flex: 1;
-    padding-bottom: 50px; }
-    .home .services-row .wpb_column [class*="-btn"] {
+    padding-bottom: 50px;
+    margin-bottom: 30px; }
+    .services-row .wpb_column [class*="-btn"] {
       position: absolute;
       bottom: 0;
       left: 50%;
       margin-left: -112.5px;
       white-space: nowrap;
       width: 225px; }
-.home .sales h2 {
+
+.sales h2 {
   color: #0078ad; }
-.home .service h2 {
+
+.service h2 {
   color: #807e82; }
-.home .restorations h2 {
+
+.restorations h2 {
   color: #00b05a; }
-.home .parts h2 {
+
+.parts h2 {
   color: #636363; }
-.home .logos p > img {
-  vertical-align: middle;
-  margin-right: 10px; }
+
+.logos {
+  padding: 0; }
+  .logos p a img {
+    vertical-align: middle;
+    margin-right: 2%;
+    max-width: 30%;
+    height: auto; }
+  .logos p a:last-of-type img {
+    margin: 0; }
 
 /******************************************************************
 PAGE NAVI STYLES
@@ -1939,7 +1953,7 @@ view.
   #footer-nav > ul > li {
     flex-shrink: 0;
     margin-right: 4%;
-    max-width: 31%; }
+    max-width: 48%; }
     #footer-nav > ul > li a {
       color: #fff;
       padding: 0; }
@@ -1964,7 +1978,8 @@ view.
 
 .copyright {
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  right: 0; }
 
 /*********************
 LARGER MOBILE DEVICES
@@ -1974,27 +1989,21 @@ tweeners.
 *********************/
 @media only screen and (min-width: 481px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Woodland Travel
+  Author: Rachel Flowers | Pixel Play Creative
   
   Stylesheet: 481px and Up Stylesheet
   
-  This stylesheet is loaded for larger devices. It's set to
-  481px because at 480px it would load on a landscaped iPhone.
-  This isn't ideal because then you would be loading all those
-  extra styles on that same mobile connection.
-  
-  A word of warning. This size COULD be a larger mobile device,
-  so you still want to keep it pretty light and simply expand
-  upon your base.scss styles.
-  
   ******************************************************************/
-  /*
-  IMPORTANT NOTE ABOUT SASS 3.3 & UP
-  You can't use @extend within media queries
-  anymore, so just be aware that if you drop
-  them in here, they won't work.
-  */
+  /*********************
+  GENERAL STYLES
+  *********************/
+  html {
+    font-size: 90%; }
+
+  /*********************
+  HEADER STYLES
+  *********************/
   #airstream-logo {
     background: none;
     width: auto;
@@ -2006,7 +2015,8 @@ tweeners.
       height: auto; }
 
   #logo {
-    flex-basis: 48%; }
+    flex-basis: 48%;
+    max-width: none; }
 
   .menu-trigger {
     display: none; }
@@ -2035,14 +2045,20 @@ tweeners.
       clear: both; }
 
   /* end .entry-content */
+  #hero img {
+    left: -50%; }
+
+  .home .full-width-inner-row .vc_col-sm-3 {
+    width: 50%;
+    float: left; }
+
   /*********************
   FOOTER STYLES
   *********************/
-  /*
-  check your menus here. do they look good?
-  do they need tweaking?
-  */
-  /* end .footer-links */ }
+  #footer-nav {
+    flex: 1 0 100%; }
+    #footer-nav > ul > li {
+      max-width: 31%; } }
 /*********************
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and
@@ -2051,65 +2067,34 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Woodland Travel Center
+  Author: Rachel Flowers | Pixel Play Creative
   
   Stylesheet: Tablet & Small Desktop Stylesheet
-  
-  Here's where you can start getting into the good stuff.
-  This size will work on iPads, other tablets, and desktops.
-  So you can start working with more styles, background images,
-  and other resources. You'll also notice the grid starts to
-  come into play. Have fun!
   
   ******************************************************************/
   /*********************
   GENERAL STYLES
   *********************/
+  html {
+    font-size: 95%; }
+
   /*********************
   HEADER STYLES
   *********************/
-  #logo, #airstream-logo {
-    flex-basis: auto;
-    text-align: left; }
-    #logo img, #airstream-logo img {
-      max-width: 80%; }
+  #navs-search {
+    justify-content: flex-end; }
+
+  #constant-nav, #searchform {
+    flex: none; }
 
   #searchform {
-    min-width: none; }
-
-  #navs-search {
-    flex-grow: 2;
-    flex-basis: auto;
-    text-align: right;
-    max-width: 37%; }
+    margin-left: 10px;
+    margin-right: 20px; }
 
   #primary-nav {
-    text-align: right; }
+    flex-basis: auto; }
 
-  #hero h1 {
-    padding-top: 100px; }
-
-  .page #inner-content {
-    margin-top: 115px; }
-  .home #inner-content {
-    margin-top: 0; }
-
-  /*
-  #navs-search {
-      justify-content: flex-end;
-  }
-  
-      #constant-nav, #searchform {
-          flex: none;
-      }
-  
-  
-      #searchform {
-          margin-left: 15px;
-          min-width: 300px;
-      }
-  */
   /*********************
   NAVIGATION STYLES
   *********************/
@@ -2127,6 +2112,12 @@ you can add resource intensive styles.
       width: 120%; }
     #primary-nav .nav > li:hover > ul {
       left: auto; }
+
+  /*********************
+  POSTS & CONTENT STYLES
+  *********************/
+  #hero h1 {
+    padding-top: 120px; }
 
   /*********************
   SIDEBARS & ASIDES
@@ -2159,6 +2150,17 @@ you can add resource intensive styles.
   /* recent-comments widget */
   /* search widget */
   /* text widget */
+  .home .full-width-inner-row .vc_col-sm-6 {
+    width: 100%; }
+  .home .full-width-inner-row .vc_col-sm-3 {
+    width: 50%; }
+
+  #hero h1 {
+    font-size: 2.75rem;
+    padding-top: 120px; }
+  #hero img {
+    left: auto; }
+
   /*********************
   FOOTER STYLES
   *********************/
@@ -2167,37 +2169,44 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  #footer-nav {
-    flex: 1 0 auto; }
-    #footer-nav > ul {
-      display: block;
-      margin: 0;
-      white-space: nowrap; }
-      #footer-nav > ul > li {
-        width: 125px;
-        display: inline-block;
-        vertical-align: top;
-        white-space: normal; }
+  #footer-nav > ul {
+    display: block;
+    margin: 0;
+    white-space: nowrap; }
+    #footer-nav > ul > li {
+      width: 125px;
+      display: inline-block;
+      vertical-align: top;
+      white-space: normal; }
 
-  #contact-info, #social {
-    flex-basis: auto; } }
+  #contact-info {
+    flex-basis: auto; }
+
+  #social {
+    flex-basis: 75%; } }
 /*********************
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
-@media only screen and (min-width: 1030px) {
+@media only screen and (min-width: 1024px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Woodland Travel Center
+  Author: Rachel Flowers | Pixel Play Creative
   
   Stylesheet: Desktop Stylsheet
   
-  This is the desktop size. It's larger than an iPad so it will only
-  be seen on the Desktop.
-  
   ******************************************************************/
+  /*********************
+  GENERAL STYLES
+  *********************/
+  html {
+    font-size: 100%; }
+
+  /*********************
+  HEADER STYLES
+  *********************/
   #logo, #airstream-logo {
     flex-basis: auto;
     text-align: left; }
@@ -2205,7 +2214,7 @@ you can add resource intensive styles.
       max-width: 80%; }
 
   #searchform {
-    min-width: none; }
+    margin-right: 0; }
 
   #navs-search {
     flex-grow: 2;
@@ -2222,7 +2231,25 @@ you can add resource intensive styles.
   .page #inner-content {
     margin-top: 115px; }
   .home #inner-content {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .services-row .wpb_column {
+    flex-basis: 24%; }
+
+  .full-width-inner-row {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%; }
+    .home .full-width-inner-row .vc_col-sm-6 {
+      width: 50%; }
+    .home .full-width-inner-row .vc_col-sm-3 {
+      width: 25%; }
+
+  /*********************
+  FOOTER STYLES
+  *********************/
+  #footer-nav, #social {
+    flex-basis: auto; } }
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
