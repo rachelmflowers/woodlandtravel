@@ -22,16 +22,20 @@ HEADER STYLES
 *********************/
 
 #navs-search {
-    justify-content: flex-end;
+    flex: 1 0 auto;
 }
-    #constant-nav, #searchform {
-        flex: none;
-    }
-
 
     #searchform {
-        margin-left: 10px;
-        margin-right: 20px;
+        flex: 1 0 auto;
+        margin-right: 15px;
+
+        #s {
+            min-width: 100px;
+
+            &:focus {
+                margin-left: 15%;
+            }
+        }
     }
 
     #primary-nav {

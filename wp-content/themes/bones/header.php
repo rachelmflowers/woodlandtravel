@@ -79,10 +79,7 @@
 
                         </nav>
 
-                        <form id="searchform" method="get" action="<?php bloginfo('http://woodlandtravelcenter.net')?>/">
-                            <input type="text" name="s" id="s" class="textbox" value="<?php echo wp_specialchars($s, 1); ?>" />
-                            <button id="btnSearch" class="light-gray-btn" type="submit" name="submit"><i class="fa fa-search"></i></button>
-                        </form>
+                        <?php get_search_form() ?>
 
                         <nav id="primary-nav" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
                             <?php wp_nav_menu(array(

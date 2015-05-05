@@ -23,8 +23,9 @@ HEADER STYLES
 *********************/
 
 #logo, #airstream-logo {
-    flex-basis: auto;
+    flex:1 0 30%;
     text-align: left;
+    max-width: 30%;
 
     img {
         max-width:80%;
@@ -33,13 +34,33 @@ HEADER STYLES
 
 #searchform {
     margin-right: 0;
+    max-width: none;
+    flex:1 0 50%;
+
+     #s {
+        padding: 0 5px;
+        transition: none;
+        background-color: #ffffff;
+        border: 1px solid lighten($gray, 15%);
+        cursor: text;
+        outline: 0;
+        margin-left: 30px;
+        padding: 0 5px;
+        width: inherit;
+        flex: 1 0 30%;
+        max-width: none;
+
+        &:focus {
+            margin-left: 30px;
+            max-width: none;
+        }
+    }
 }
 
 #navs-search {
-    flex-grow: 2;
-    flex-basis: auto;
+    flex: 1 0 38%;
     text-align: right;
-    max-width: 37%;
+    max-width: 38%;
 }
 
 

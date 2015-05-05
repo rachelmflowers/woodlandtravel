@@ -113,8 +113,6 @@ duplicate one of the lines in the array and name it according to your
 new image size.
 */
 
-add_theme_support( 'post-thumbnails' );
-
 /************* THEME CUSTOMIZE *********************/
 
 /*
@@ -234,10 +232,13 @@ function bones_comments( $comment, $args, $depth ) {
 
 
 // Enable support for HTML5 markup.
-    add_theme_support( 'html5', array(
-        'comment-list',
-        'search-form',
-        'comment-form'
-    ) );
+    add_theme_support(
+        'html5', array(
+            'comment-list',
+            'search-form',
+            'comment-form'
+        ),
+        'post-thumbnails'
+    );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
