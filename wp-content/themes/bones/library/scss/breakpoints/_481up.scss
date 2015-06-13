@@ -100,7 +100,7 @@ POSTS & CONTENT STYLES
     }
 }
 
-.service-row {
+.services-row {
 
     .wpb_column {
         flex: 1 0 48%;
@@ -116,11 +116,15 @@ FOOTER STYLES
 
 #footer-nav {
     flex: 1 0 100%;
-
-    > ul {
-
+    
+    ul {
+        
         > li {
-            max-width: 31%;
+            width: 29%;
+             
+            &:last-child {
+                margin-right: 4%;
+            }
         }
     }
 }
@@ -128,4 +132,18 @@ FOOTER STYLES
 #contact-info, #social {
     flex: 1 0 48%;
 }
+    
+    .hours {
+        p {
+            small, span {
+                display: inline;
+            }
+        }
+    }
+
+    .copyright {
+        width: auto;
+        right: 0;
+        left: auto;
+    }
 

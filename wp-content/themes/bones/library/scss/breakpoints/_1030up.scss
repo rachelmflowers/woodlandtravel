@@ -16,6 +16,10 @@ html {
     font-size: 100%;
 }
 
+#container {
+    overflow: inherit;
+}
+
 
 
 /*********************
@@ -116,6 +120,22 @@ HEADER STYLES
 FOOTER STYLES
 *********************/
 
-#footer-nav, #social {
+#footer-nav, #contact-info {
     flex-basis: auto;
+}
+
+#social {
+    flex-basis: 30%;
+    padding-top: 40px;
+}
+
+.social-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.copyright {
+    left: 0;
+    right: auto;
 }

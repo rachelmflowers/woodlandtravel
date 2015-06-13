@@ -255,28 +255,4 @@ of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
 
-#footer-nav {
-
-    > ul {
-        display: block;
-        margin: 0;
-        white-space: nowrap;
-
-
-        > li {
-            width: 125px;
-            display: inline-block;
-            vertical-align: top;
-            white-space: normal;
-        }
-    }
-}
-
-#contact-info {
-    flex-basis: auto;
-}
-
-#social {
-    flex-basis: 75%;
-}
 
