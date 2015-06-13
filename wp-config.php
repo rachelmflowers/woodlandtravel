@@ -13,27 +13,38 @@
  *
  * @package WordPress
  */
+ 
+ //Setup defines
+define('FS_CHMOD_DIR', 02775);
+define('FS_CHMOD_FILE', 0664);
+define('FS_METHOD', 'direct');
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'woodland_wp');
+if ( file_exists( ABSPATH . 'wp-config-local.php') ) { 
+	// local database overrides
+	require_once( ABSPATH . 'wp-config-local.php' );
+} else { 
+	// production database defaults
 
-/** MySQL database username */
-define('DB_USER', 'root');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'root');
-
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
-
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
-
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
-define('DISABLE_WP_CRON', 'true');
-
+    // ** MySQL settings - You can get this info from your web host ** //
+    /** The name of the database for WordPress */
+    define('DB_NAME', 'woodla16_wp');
+    
+    /** MySQL database username */
+    define('DB_USER', 'woodla16_wp');
+    
+    /** MySQL database password */
+    define('DB_PASSWORD', 'pDLoyER7WYth8p');
+    
+    /** MySQL hostname */
+    define('DB_HOST', 'localhost');
+    
+    /** Database Charset to use in creating database tables. */
+    define('DB_CHARSET', 'utf8');
+    
+    /** The Database Collate type. Don't change this if in doubt. */
+    define('DB_COLLATE', '');
+    define('DISABLE_WP_CRON', 'true');
+}
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -75,7 +86,7 @@ define('WP_DEBUG', false);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

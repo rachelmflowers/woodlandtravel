@@ -36,9 +36,30 @@
                         <i class="fa fa-pinterest-square"></i>
                         <i class="fa fa-instagram"></i>
                         <i class="fa fa-youtube-square"></i>
-
-                        <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All Rights Reserved</p>
+                        <div class="hours">
+                        	<p>
+                            	<strong>Summer Hours</strong>
+                                <small>Memorial Day - Labor Day</small>
+                            </p>
+                            <p>
+                            	Mon - Fri 9:00am - 6:00pm<br />
+                            	Saturday  9:00am - 1:00pm<br />
+                                Closed Sunday
+                            </p>
+                            <hr />
+                            <p>
+                            	<strong>Winter Hours</strong>
+                                <small>Labor Day - Memorial Day</small>
+                            </p>
+                            <p>
+                            	Mon - Fri 9:00am - 5:00pm<br />
+                                Saturday  9:00am - Noon<br />
+                                Closed Sunday
+                            </p>
+                        </div>
                     </div>
+                    
+                    <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All Rights Reserved</p>
 
                 </div>
 
