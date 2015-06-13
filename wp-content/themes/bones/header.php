@@ -20,14 +20,24 @@
 
         <?php // icons & favicons ?>
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
-        <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
-        <!--[if IE]>
-            <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-        <![endif]-->
-        <?php // or, set /favicon.ico for IE10 win ?>
-        <meta name="msapplication-TileColor" content="#f01d4f">
-        <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
-        <meta name="theme-color" content="#121212">
+        <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-57x57.png?v=Jyn5vm26qp">
+        <link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-60x60.png?v=Jyn5vm26qp">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-72x72.png?v=Jyn5vm26qp">
+        <link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-76x76.png?v=Jyn5vm26qp">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-114x114.png?v=Jyn5vm26qp">
+        <link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-120x120.png?v=Jyn5vm26qp">
+        <link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-144x144.png?v=Jyn5vm26qp">
+        <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-152x152.png?v=Jyn5vm26qp">
+        <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-180x180.png?v=Jyn5vm26qp">
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon-32x32.png?v=Jyn5vm26qp" sizes="32x32">
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/android-chrome-192x192.png?v=Jyn5vm26qp" sizes="192x192">
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon-96x96.png?v=Jyn5vm26qp" sizes="96x96">
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon-16x16.png?v=Jyn5vm26qp" sizes="16x16">
+        <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/manifest.json?v=Jyn5vm26qp">
+        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon.ico?v=Jyn5vm26qp">
+        <meta name="msapplication-TileColor" content="#00b05a">
+        <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/favicons/mstile-144x144.png?v=Jyn5vm26qp">
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
