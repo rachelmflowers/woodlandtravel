@@ -174,17 +174,18 @@ HEADER STYLES
 *********************/
 
 .header {
-    position: absolute;
-    top: 0;
-    z-index: 1000;
     width: 100%;
-    overflow: hidden;
+    max-width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 
     .page & {
         background-color: rgba(128, 126, 130, 0.35);
     }
 
-    .home & {
+    .home.page & {
+        position: absolute;
+        top: 0;
+        z-index: 1000;
         background-color: rgba(255, 255, 255, 0.75);
     }
 }
@@ -371,8 +372,12 @@ and more scalable.
         justify-content: space-between;
 
         ul {
-            background-color: rgba(255, 255, 255, 0.75);
+            background-color: rgba(128, 126, 130, 0.35);
             margin-top:0;
+            
+            .home & {
+                background-color: rgba(255, 255, 255, 0.75);
+            }
         }
 
         > li {
@@ -501,14 +506,21 @@ POSTS & CONTENT STYLES
     padding-top: 50px;
 
     .page & {
-        margin-top: 197px;
-        padding-top: 35px;
+        padding-top: 25px;
     }
 
-    .home & {
+    .home.page & {
         margin-top: 0;
     }
 }
+
+        #page-header {
+            img {
+                max-width: 100%;
+                margin: 0 auto;
+                height: auto;
+            }
+        }
 
 
         .hentry {
