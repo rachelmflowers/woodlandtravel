@@ -135,6 +135,12 @@ FOOTER STYLES
     right: 0;
 }
 
+.hours {
+    p small {
+        display: block;
+    }
+}
+
 .copyright {
     left: 0;
     right: auto;
