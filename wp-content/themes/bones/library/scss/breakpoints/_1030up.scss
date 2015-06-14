@@ -80,9 +80,21 @@ HEADER STYLES
 }
 
 #inner-content {
+    display: flex;
+    flex-flow: row wrap;
 
     .home & {
         margin-top: 0;
+    }
+    
+    .main {
+        flex: 2 0 auto;
+        min-width: 300px;
+    }
+    
+    .sidebar {
+        flex: 1 0 auto;
+        min-width: 200px;
     }
 }
 

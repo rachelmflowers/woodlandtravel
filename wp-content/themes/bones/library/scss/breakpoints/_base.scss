@@ -177,9 +177,11 @@ HEADER STYLES
     width: 100%;
     max-width: 100%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 1000;
 
     .page & {
-        background-color: rgba(128, 126, 130, 0.35);
+        background-color: rgba(128, 126, 130, 0.25);
     }
 
     .home.page & {
@@ -372,7 +374,7 @@ and more scalable.
         justify-content: space-between;
 
         ul {
-            background-color: rgba(128, 126, 130, 0.35);
+            background-color: lighten($gray, 38%);
             margin-top:0;
             
             .home & {
@@ -503,19 +505,30 @@ POSTS & CONTENT STYLES
 }
 
 #inner-content {
-    padding-top: 50px;
-
-    .page & {
+    display: flex;
+    flex-flow: row wrap;
+    
+    .home & {
+        padding-top: 50px;
+    }
+    
+    .main {
+        flex: 2 0 auto;
+        min-width: 300px;
         padding-top: 25px;
     }
-
-    .home.page & {
-        margin-top: 0;
+    
+    .sidebar {
+        flex: 1 0 auto;
+        min-width: 200px;
+        padding-top: 25px;
     }
 }
 
         #page-header {
+            
             img {
+                display: block;
                 max-width: 100%;
                 margin: 0 auto;
                 height: auto;
@@ -1171,6 +1184,7 @@ SIDEBARS & ASIDES
     .widget {
 
         ul {
+            margin-top: 0;
 
             li {
 
@@ -1187,6 +1201,34 @@ SIDEBARS & ASIDES
 
         }
 
+    }
+    
+    .widget_theme_navigation {
+        margin: 0;
+        
+        ul {
+            
+            li {
+                padding: 10px 20px;
+                border-bottom: 1px solid lighten($gray, 25%);
+                box-shadow: 0 1px 0 rgba(255,255,255,0.5);
+                white-space: normal;
+                
+                &:hover {
+                    background: $woodland-green;
+                    
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+            
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
     }
 
     .no-widgets {

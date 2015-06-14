@@ -18,9 +18,9 @@ if (have_posts()) :
     <div id="content">
         
         <div id="inner-content" class="wrap cf">
-            <?php if ( function_exists('yoast_breadcrumb') ) yoast_breadcrumb('<p id="breadcrumbs">','</p>'); ?>
             
-            <div class="m-all t-2of3 d-5of7">
+            <div class="main">
+                <?php if ( function_exists('yoast_breadcrumb') ) yoast_breadcrumb('<p id="breadcrumbs">','</p>'); ?>
                 <?php the_content(); ?>
             </div>
             
