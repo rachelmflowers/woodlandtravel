@@ -377,7 +377,7 @@ and more scalable.
         ul {
             background-color: lighten($gray, 38%);
             margin-top:0;
-            
+
             .home & {
                 background-color: rgba(255, 255, 255, 0.75);
             }
@@ -508,17 +508,17 @@ POSTS & CONTENT STYLES
 #inner-content {
     display: flex;
     flex-flow: row wrap;
-    
+
     .home & {
         padding-top: 50px;
     }
-    
+
     .main {
         flex: 2 0 auto;
         min-width: 300px;
         padding-top: 25px;
     }
-    
+
     .sidebar {
         flex: 1 0 auto;
         min-width: 200px;
@@ -530,7 +530,7 @@ POSTS & CONTENT STYLES
             margin-top: -82px;
             max-height: 500px;
             overflow: hidden;
-            
+
             img {
                 display: block;
                 width: 100%;
@@ -1184,7 +1184,7 @@ SIDEBARS & ASIDES
 .sidebar {}
 
     .widgettitle {
-        
+
         text-transform: uppercase;
     }
 
@@ -1210,27 +1210,27 @@ SIDEBARS & ASIDES
         }
 
     }
-    
+
     .widget_theme_navigation {
         margin: 0;
-        
+
         ul {
-            
+
             li {
                 padding: 10px 20px;
                 border-bottom: 1px solid lighten($gray, 25%);
                 box-shadow: 0 1px 0 rgba(255,255,255,0.5);
                 white-space: normal;
-                
+
                 &:hover {
                     background: $woodland-green;
-                    
+
                     a {
                         color: $white;
                     }
                 }
             }
-            
+
             a {
                 text-decoration: none;
                 text-transform: uppercase;
@@ -1285,7 +1285,7 @@ FOOTER STYLES
                 flex-shrink: 0;
                 width: 30%;
                 margin-right: 4%;
-                
+
                 &:last-child {
                     margin-right: 0;
                 }
@@ -1316,7 +1316,7 @@ FOOTER STYLES
     #contact-info, #social {
         flex: 1 0 50%;
     }
-    
+
     #contact-info {
 
         i {
@@ -1329,7 +1329,19 @@ FOOTER STYLES
         text-align: right;
         position: relative;
     }
-    
+
+    .social-icons {
+
+        a {
+            color: $white;
+            margin-right: 5px;
+
+            &:hover {
+                color: $airstream-blue;
+            }
+        }
+    }
+
     .hours {
         p {
             span {

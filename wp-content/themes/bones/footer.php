@@ -30,41 +30,41 @@
                             616.363.7747 (fax)
                         </p>
                         <div class="social-icons">
-                            <i class="fa fa-facebook-square"></i>
-                            <i class="fa fa-pinterest-square"></i>
-                            <i class="fa fa-instagram"></i>
-                            <i class="fa fa-youtube-square"></i>
+                            <a href="//www.facebook.com/WoodlandTravelCenter"><i class="fa fa-facebook-square"></i></a>
+                            <a href="//www.pinterest.com/woodlandtravel/"><i class="fa fa-pinterest-square"></i></a>
+                            <a href="//instagram.com/airstreamsbywoodland/"><i class="fa fa-instagram"></i></a>
+                            <a href="//twitter.com/woodlandtravelc"><i class="fa fa-twitter-square"></i></a>
                         </div>
                     </div>
 
                     <div id="social">
                         <div class="hours">
                             <div class="summer">
-                            	<p>
-                                	<strong>Summer Hours</strong>
+                              <p>
+                                  <strong>Summer Hours</strong>
                                     <small>Memorial Day - Labor Day</small>
                                 </p>
                                 <p>
-                                	<span>Mon - Fri</span> 9:00am - 6:00pm<br />
-                                	<span>Saturday</span>  9:00am - 1:00pm<br />
+                                  <span>Mon - Fri</span> 9:00am - 6:00pm<br />
+                                  <span>Saturday</span>  9:00am - 1:00pm<br />
                                     Closed Sunday
                                 </p>
                                 <hr />
                             </div>
                             <div class="winter">
                                 <p>
-                                	<strong>Winter Hours</strong>
+                                  <strong>Winter Hours</strong>
                                     <small>Labor Day - Memorial Day</small>
                                 </p>
                                 <p>
-                                	<span>Mon - Fri</span> 9:00am - 5:00pm<br />
+                                  <span>Mon - Fri</span> 9:00am - 5:00pm<br />
                                     <span>Saturday</span>  9:00am - Noon<br />
                                     Closed Sunday
                                 </p>
                             </div>
                         </div>
                     </div>
-                    
+
                     <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All Rights Reserved</p>
 
                 </div>
