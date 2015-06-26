@@ -82,15 +82,17 @@ LAYOUT & GRID STYLES
 
 }
 
-.vc_row {
-    width: 96%;
-    max-width: 1366px;
-    margin-left: auto;
-    margin-right: auto;
+.home {
+    .vc_row {
+        width: 96%;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
 
-    &[data-vc-full-width="true"] {
-        max-width: none;
-        left: 0 !important;
+        &[data-vc-full-width="true"] {
+            max-width: none;
+            left: 0 !important;
+        }
     }
 }
 
@@ -846,6 +848,21 @@ POSTS & CONTENT STYLES
     }
 
 
+    .inventory-frame {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
 
 /******************************************************************
 PAGE NAVI STYLES

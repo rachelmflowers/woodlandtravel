@@ -30,10 +30,10 @@
                             616.363.7747 (fax)
                         </p>
                         <div class="social-icons">
-                            <a href="//www.facebook.com/WoodlandTravelCenter"><i class="fa fa-facebook-square"></i></a>
-                            <a href="//www.pinterest.com/woodlandtravel/"><i class="fa fa-pinterest-square"></i></a>
-                            <a href="//instagram.com/airstreamsbywoodland/"><i class="fa fa-instagram"></i></a>
-                            <a href="//twitter.com/woodlandtravelc"><i class="fa fa-twitter-square"></i></a>
+                            <a href="//www.facebook.com/WoodlandTravelCenter" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                            <a href="//www.pinterest.com/woodlandtravel/" target="_blank"><i class="fa fa-pinterest-square"></i></a>
+                            <a href="//instagram.com/airstreamsbywoodland/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="//twitter.com/woodlandtravelc"  target="_blank"><i class="fa fa-twitter-square"></i></a>
                         </div>
                     </div>
 
