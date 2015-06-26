@@ -181,7 +181,8 @@ HEADER STYLES
     z-index: 1000;
 
     .page & {
-        background-color: rgba(128, 126, 130, 0.25);
+        //background-color: rgba(128, 126, 130, 0.25);
+        background-color: rgba(255, 255, 255, 0.85);
     }
 
     .home.page & {
@@ -526,10 +527,13 @@ POSTS & CONTENT STYLES
 }
 
         #page-header {
+            margin-top: -82px;
+            max-height: 500px;
+            overflow: hidden;
             
             img {
                 display: block;
-                max-width: 100%;
+                width: 100%;
                 margin: 0 auto;
                 height: auto;
             }
@@ -1179,9 +1183,13 @@ SIDEBARS & ASIDES
 
 .sidebar {}
 
-    .widgettitle {}
+    .widgettitle {
+        
+        text-transform: uppercase;
+    }
 
-    .widget {
+    .widget:not(.widget_theme_navigation) {
+        padding: 0 20px;
 
         ul {
             margin-top: 0;

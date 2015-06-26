@@ -7,13 +7,13 @@ if (have_posts()) :
         .breadcrumbs { display: none; }
     </style>
     
+    <?php if ( has_post_thumbnail() ) { ?>
+    
     <header id="page-header">
-        <?php
-        if ( has_post_thumbnail() ) {
-        	the_post_thumbnail('full');
-        }
-        ?>
+    	<?php the_post_thumbnail('full'); ?>
     </header>
+    
+    <?php } ?>
 
     <div id="content">
         
