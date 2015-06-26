@@ -86,12 +86,12 @@ HEADER STYLES
     .home & {
         margin-top: 0;
     }
-    
+
     .main {
         flex: 2 0 auto;
         min-width: 300px;
     }
-    
+
     .sidebar {
         flex: 1 0 auto;
         min-width: 200px;
@@ -141,6 +141,15 @@ FOOTER STYLES
     position: absolute;
     top: 0;
     right: 0;
+
+    a {
+        color: $white;
+        margin-right: 5px;
+
+        &:hover {
+            color: $airstream-blue;
+        }
+    }
 }
 
 .hours {

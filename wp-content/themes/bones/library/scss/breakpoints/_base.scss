@@ -1331,14 +1331,11 @@ FOOTER STYLES
     }
 
     .social-icons {
+        z-index: 1000;
 
         a {
             color: $white;
             margin-right: 5px;
-
-            &:hover {
-                color: $airstream-blue;
-            }
         }
     }
 
